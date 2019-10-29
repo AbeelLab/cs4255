@@ -39,21 +39,20 @@ After you have enrolled in the course, you can also [directly access it][ex]. Ea
 
 ### Project
 You should select two research papers out of the list below to implement in your project:
-- Mininap/miniasm
-- BLAST
-- Magnolya
-- BWA-MEM
-- FastTree
-- Pindel
+- [Mininap-Miniasm][minimap]
+- [BWA-MEM][bwa]
+- [FastTree-Pindel][fastpin]
 
 Your project grades will be the 40% of your final grade. You are expected to submit your project by week 8.
 
 ### Exam
 Exam grades will make up the 60% of your final grade.
-You can find more detailed instructions for the project [here][proj].
 
 
 
 [bs]: https://brightspace.tudelft.nl/d2l/home/212966
 [ex]: http://rosalind.info/classes/661/
 [book]: http://bioinformaticsalgorithms.com/
+[minimap]: https://github.com/AbeelLab/cs4255/blob/master/minimap-doc.html
+[bwa]: https://github.com/AbeelLab/cs4255/blob/master/bwa-doc.html
+[fastpin]: https://github.com/AbeelLab/cs4255/blob/master/fastpin-doc.html
