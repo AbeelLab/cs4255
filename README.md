@@ -55,7 +55,7 @@ Desired (but not required):
 ### Course book
 In this course we will cover Chapters 1,2,3,4,5,6,7,9,10 from the book ["Bioinformatics Algorithms - an active learning approach"][book]. Having the related chapters at hand during the programming exercises will prove very helpful.
 
-## During the course
+Corresponding slide material is available on Brightspace.
 
 ### Course material
 
@@ -68,15 +68,15 @@ Exercises are hosted on Rosalind. You first need to [enroll in the course](http:
 After you have enrolled in the course, you can also [directly access it][ex]. Each Monday you will be working on the exercises of the lectures from the previous week (Tuesday and Thursday). 
 
 ### Project
-You should select two research papers out of the list below to implement in your project:
+You should select one research papers out of the list below to implement in your project:
 - [Minimap-Miniasm][minimap]
 - [BWA-MEM][bwa]
 - [FastTree-Pindel][fastpin]
 
-Your project grades will be the 40% of your final grade. You are expected to submit your project by week 8.
+Your project grade will be the 20% of your final grade. You are expected to submit your project by week 8.
 
 ### Exam
-Exam grades will make up the 60% of your final grade.
+Exam grades will make up the 80% of your final grade.
 
 
 
