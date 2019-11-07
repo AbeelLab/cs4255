@@ -73,10 +73,10 @@ You should select one research papers out of the list below to implement in your
 - [BWA-MEM][bwa]
 - [FastTree-Pindel][fastpin]
 
-Your project grade will be the 20% of your final grade. You are expected to submit your project by week 8.
+Your project grade will be the 40% of your final grade. You are expected to submit your project by week 8.
 
 ### Exam
-Exam grades will make up the 80% of your final grade.
+Exam grades will make up the 60% of your final grade.
 
 
 
