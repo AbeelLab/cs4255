@@ -1,9 +1,9 @@
-## CS4255 2019 Project Instructions for BWA-MEM ##
+## CS4255 2019 Project Instructions for BWA and BWA-SW ##
 
 # Problem statement #
+BWA and BWA-SW are tools for aligning short (less than 100 bp) and long (less than 1 Mbp) reads to a large reference. 
 
-
-### Script ###
+### Script 1###
 
 __Input:__  <br/>
 __Output:__ 
@@ -16,6 +16,13 @@ __Output:__
 
 
 ## Intermediate tests ##
+
+---
+
+### Script 2###
+
+__Input:__  <br/>
+__Output:__ 
 
 ---
 
