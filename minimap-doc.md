@@ -17,7 +17,7 @@ __Output:__ Genome assembly in FASTA format
 ## Test data ##
 
 ### 1. You can test your codes on the [small test dataset with 3 reads](https://github.com/AbeelLab/cs4255/blob/master/minimap-reallysmall.fastq) ###
-*HINT: Use k = 10 and w = 3* 
+*Use k = 10 and w = 3* 
 
 Correct output (using the same notation as in *Algorithm 4* from the paper:
 ```python
