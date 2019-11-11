@@ -68,9 +68,9 @@ After you have enrolled in the course, you can also [directly access it][ex]. Ea
 
 ### Project
 You should select one research papers out of the list below to implement in your project:
-- [Minimap-Miniasm][minimap]
-- [BWA-MEM][bwa]
-- [FastTree-Pindel][fastpin]
+- [Minimap and Miniasm][minimap]
+- [BWA and BWA-SW][bwa]
+- [FastTree and Pindel][fastpin]
 
 Your project grade will be the 40% of your final grade. You are expected to submit your project by week 8.
 
