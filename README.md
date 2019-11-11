@@ -35,11 +35,10 @@ Thursday, 19 December 2019 13:45	 	|  Chapter 9
 Monday, 6 January 2020 8:45	 	|  Exercices. ch. 9
 Tuesday, 7 January 2020 13:45	 	|  Chapter 10
 Thursday, 9 January 2020 13:45	 	|  Chapter 10
-Friday, 10 January	 	|  **Project deadline**
 Monday, 13 January 2020 8:45	 	|  Exercices. ch. 10
 Tuesday, 14 January 2020 13:45	 	|  Back-up slot
 Thursday, 16 January 2020 13:45	 	|  Back-up slot
-
+Friday, 17 January	 	|  **Project deadline**
 
 ## Preparation
 ### Computer requirements
