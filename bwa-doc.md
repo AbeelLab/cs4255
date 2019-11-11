@@ -5,8 +5,8 @@ BWA and BWA-SW are tools for aligning short (less than 100 bp) and long (less th
 
 ### Script 1###
 
-__Input:__  Large reference and set of short reads
-__Output:__ Alignment of the short reads and the reference
+__Input:__  Large reference and set of short reads.
+__Output:__ Alignment of the short reads and the reference.
 
 ---
 
