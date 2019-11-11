@@ -5,8 +5,8 @@ BWA and BWA-SW are tools for aligning short (less than 100 bp) and long (less th
 
 ### Script 1###
 
-__Input:__  <br/>
-__Output:__ 
+__Input:__  Large reference and set of short reads
+__Output:__ Alignment of the short reads and the reference
 
 ---
 
@@ -15,19 +15,29 @@ __Output:__
 ## Test data ##
 
 
-## Intermediate tests ##
-
 ---
 
 ### Script 2###
 
-__Input:__  <br/>
-__Output:__ 
+__Input:__  Large reference and set of long reads
+__Output:__ Alignment of the long reads and the reference
 
+# Testing your code #
+
+## Test data ##
 ---
 
 # Some useful notes  #
+## BWA
+For implementing BWA aligner following steps need to be taken
+1- Calculate BWT string for reference string X
+*Note: You can use the BWT implementation for excercise 33*
+2- Calculate array C(.) and O(.,.) from B
+*Note:*
+3- Calculate BWT string B' for the reverse reference
+4- Calculate array O'(.,.) from B'
 
+## BWA-SW
  
 ---
 # Script Submission #
