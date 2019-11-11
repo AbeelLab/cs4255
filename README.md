@@ -19,25 +19,25 @@ Tuesday, 12 November 2019 13:45	 	|  Chapter 1
 Thursday, 14 November 2019 13:45	 	|  Chapter 2
 Monday, 18 November 2019 8:45	 	|  Exercises chapters 1 & 2
 Tuesday, 19 November 2019 13:45	 	|  Chapter 3
-Thursday, 21 November 2019 13:45	 	|  Chapter 3
+Thursday, 21 November 2019 13:45	 	|  backup slot
 Monday, 25 November 2019 8:45	 	|  Exercises. ch 3
 Tuesday, 26 November 2019 13:45	 	|  Chapter 5
-Thursday, 28 November 2019 13:45	 	|  Chapter 5
+Thursday, 28 November 2019 13:45	 	|  backup slot
 Monday, 2 December 2019 8:45	 	|  Exercices. ch. 5 
 Tuesday, 3 December 2019 13:45	 	|  Chapter 6
-Thursday, 5 December 2019 13:45	 	|  Chapter 6
+Thursday, 5 December 2019 13:45	 	|  backup slot
 Monday, 9 December 2019 8:45	 	|  Exercices. ch. 6 
 Tuesday, 10 December 2019 13:45	 	|  Chapter 7
-Thursday, 12 December 2019 13:45	 	|  Chapter 7
+Thursday, 12 December 2019 13:45	 	|  backup slot
 Monday, 16 December 2019 8:45	 	|  Exercices. ch. 7
 Tuesday, 17 December 2019 13:45	 	|  Chapter 9
-Thursday, 19 December 2019 13:45	 	|  Chapter 9
+Thursday, 19 December 2019 13:45	 	|  backup slot
 Monday, 6 January 2020 8:45	 	|  Exercices. ch. 9
 Tuesday, 7 January 2020 13:45	 	|  Chapter 10
-Thursday, 9 January 2020 13:45	 	|  Chapter 10
+Thursday, 9 January 2020 13:45	 	|  backup slot
 Monday, 13 January 2020 8:45	 	|  Exercices. ch. 10
-Tuesday, 14 January 2020 13:45	 	|  Back-up slot
-Thursday, 16 January 2020 13:45	 	|  Back-up slot
+Tuesday, 14 January 2020 13:45	 	|  backup slot
+Thursday, 16 January 2020 13:45	 	|  backup slot
 Friday, 17 January	 	|  **Project deadline**
 
 ## Preparation
