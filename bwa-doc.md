@@ -149,7 +149,6 @@ You are required to submit your scripts to the shared __[Dropbox folder]()__ of 
 1. __Sufficient__ documentation on how to run the script 
 2. Written comments that are __detailed__ enough to understand your scripts
 
-## DEADLINE: November 18 ##
 
 
 <center> <b> GOOD LUCK!! </b> </center>
