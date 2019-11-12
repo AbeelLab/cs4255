@@ -100,15 +100,15 @@ intervals have an one-to-one relationship, and a node may represent multiple
 substrings of X, falling in a sequence where each is a prefix of the next as is
 discussed in the previous paragraph. Figure below gives an example.
 
-[Figure 2](https://i.imgur.com/lYbygA5.png)
+![Figure 2](https://i.imgur.com/lYbygA5.png)
 
-We construct a prefix DAWG G(W) for the query sequence W and a prefix
+It construct a prefix DAWG G(W) for the query sequence W and a prefix
 trie T (X) for the reference X. The dynamic programming for calculating the
 best score between W and X is as follows. Let Guv=Iuv=Duv=0 when u is
 the root of G(W) and v the root of T (X). At a node u in G(W), for each of
 its parent node u', calculate
 
-[DynamicProgramming1](https://i.imgur.com/Z4jFUVb.png)
+![DynamicProgramming1](https://i.imgur.com/Z4jFUVb.png)
 
 where v' is the parent of v in T (X), function S(u'
 ,u;v'
@@ -119,7 +119,7 @@ between the symbol on the edge (u'
 are gap open and gap extension penalties, respectively. Guv, Iuv and Duv are
 calculated with:
 
-[DynamicProgramming12](https://i.imgur.com/RaKkwfw.png)
+![DynamicProgramming12](https://i.imgur.com/RaKkwfw.png)
 
 where pre(u) is the set of parent nodes of u. Guv equals the best score between
 the (possibly multiple) substrings represented by u and the (one) substring
@@ -132,13 +132,6 @@ to the root of T (X) without traversing the entire trie, which greatly reduces
 the number of iterations in comparison to the standard Smith–Waterman
 algorithm that always goes through the entire reference sequence.
 
-BWT-SW deploys a similar strategy in performing the dynamic
-programming between a sequence and a prefix trie to find seed matches
-followed by Smith–Waterman extension. The main difference from our
-algorithm is that BWT-SW initiates the Smith–Waterman alignment once
-the score is high enough, regardless of the SA interval size. Sometimes a
-repetitive sequence may match to thousands of places in the human genome
-and extending partial matches each time may be slow.
 
 
 ---
