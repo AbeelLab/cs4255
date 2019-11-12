@@ -99,10 +99,9 @@ Once you complete steps 2.1 and 2.2 you should have an assembly graph. Now, you 
 2.4. Generating unitig sequences <br/>
 Intuitively, a unitig is a maximal path on which adjacent vertices can be _unambiguously merged_ without affecting the connectivity of the original assembly graph.
 
-**Now, you have two options for writing your script:**
-
-(1) Implement both minimap and miniasm _from scratch_ OR <br/>
-(2) Implement minimap from scratch only, and use the _miniasm tool_ provided by the authors
+**Now, you have sanity option in the middle:**
+(1) Implement both minimap and miniasm _from scratch_ and link them up directly <br/>
+(2) Implement minimap and miniasm from scratch but, just like minimap, output a PAF file as intermediate, which could be used by miniasm (yours or the papers version). This allows testing of minimap and miniasm independently and interoperable with real-world tools.
 
 _HINT: If you choose to take the second route, you have to **modify your first function** to generate a **PAF file** as output because the miniasm tool only accepts PAF as input for assembly. See [author's webpage for more details on PAF](https://lh3.github.io/minimap2/minimap2.html#10)_
  
