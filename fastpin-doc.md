@@ -140,9 +140,6 @@ You are required to submit your scripts to the shared __[Dropbox folder](https:/
 1. __Sufficient__ documentation on how to run the script 
 2. Written comments that are __detailed__ enough to understand your scripts
 
-## DEADLINE: January 10 ##
-
-
 <center> <b> GOOD LUCK!! </b> </center>
 
 [fast-paper]: https://doi.org/10.1093/molbev/msp077
