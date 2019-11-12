@@ -100,6 +100,13 @@ substrings of X, falling in a sequence where each is a prefix of the next as is
 discussed in the previous paragraph. Figure below gives an example.
 
 ![Figure 2](https://i.imgur.com/lYbygA5.png)
+*(A) Prefix trie. Symbol ‘∧’ marks the start of a string. The two numbers in a node gives the
+SA interval of the node. (B) Prefix DAWG constructed by collapsing nodes
+with the identical SA interval. For example, in the prefix trie, three nodes
+has SA interval [4,4]. Their parents have interval [1,2], [1,2] and [1,1],
+respectively. In the prefix DAWG, the [4,4] node thus has parents [1,2] and
+[1,1]. Node [4,4] represents three strings ‘OG’, ‘OGO’ and ‘OGOL’ with the
+first two strings being the prefix of ‘OGOL’.*
 
 It construct a prefix DAWG G(W) for the query sequence W and a prefix
 trie T (X) for the reference X. The dynamic programming for calculating the
