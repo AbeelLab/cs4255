@@ -78,9 +78,8 @@ D(0)=0 and D(1)=D(2)=1.We can then avoid descending into the ‘G’ and
 
 BWA-SW builds FM-indices for both the reference and query sequence. It
 implicitly represents the reference sequence in a prefix trie and represents
-the query sequence in a prefix directed acyclic word graph (prefix DAWG;
-Blumer et al., 1985), which is transformed from the prefix trie of the query
-sequence (Section 2.3). A dynamic programming can be applied between
+the query sequence in a prefix directed acyclic word graph, which is transformed from the prefix trie of the query
+sequence. A dynamic programming can be applied between
 the trie and the DAWG, by traversing the reference prefix trie and the
 query DAWG, respectively. This dynamic programming would find all local
 matches if no heuristics were applied, but would be no faster than BWTSW.
