@@ -16,7 +16,7 @@ __Output:__ Alignment of the short reads and the reference.
 # Testing your code #
 
 ## Test data ##
-You can use bwa-reference.fasta as the reference for BWA and align bwa-reads.fasta to it. 
+You can use [reference](bwa-reference.fasta) as the reference for BWA and align [reads](bwa-reads.fasta) to it. 
 
 ---
 
