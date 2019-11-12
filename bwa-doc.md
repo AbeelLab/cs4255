@@ -39,6 +39,10 @@ For implementing BWA aligner following steps need to be taken
 3- Calculate BWT string B' for the reverse reference
 4- Calculate array O'(.,.) from B'
 
+You can then calculate inexact matches of string W with the referece X with no more than z differences (missmatches or gaps)
+![Algorithm](https://imgshare.io/image/U542O) 
+
+
 ## BWA-SW
  
 ---
