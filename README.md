@@ -52,7 +52,7 @@ Desired (but not required):
 * Linux kernel system (Mac, Windows 10 or Linux based OS)
 
 ### Course book
-In this course we will cover Chapters 1,2,3,4,5,6,7,9,10 from the book ["Bioinformatics Algorithms - an active learning approach"][book]. Having the related chapters at hand during the programming exercises will prove very helpful.
+In this course we will cover Chapters 1,2,3,5,6,7,9,10 from the book ["Bioinformatics Algorithms - an active learning approach"][book]. Having the related chapters at hand during the programming exercises will prove very helpful.
 
 Corresponding slide material is available on Brightspace.
 
