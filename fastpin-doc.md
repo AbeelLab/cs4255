@@ -132,14 +132,6 @@ The procedure is very similar to that used for deletions. The only difference is
 	Examine the minimum and maximum substrings from both 3' and 5' to see whether they are adjacent to each other. The middle fragment is the inserted fragment. All possible solutions are stored in a database for sorting according to the break point coordinates. An insertion event is reported **if at least two reads support it.**
 
 
----
-# Script Submission #
-
-You are required to submit your scripts to the shared __[Dropbox folder](https://www.dropbox.com/request/lN9nsHxnbUisEs6m5vsP)__ of this course. Your submission must include:
-
-1. __Sufficient__ documentation on how to run the script 
-2. Written comments that are __detailed__ enough to understand your scripts
-
 <center> <b> GOOD LUCK!! </b> </center>
 
 [fast-paper]: https://doi.org/10.1093/molbev/msp077
