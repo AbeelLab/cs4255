@@ -30,7 +30,7 @@ __Output:__ Alignment of the long reads and the reference.
 ---
 
 # Some useful notes  #
-## BWA
+## BWA ##
 To find inexact matches of string W (ends with A/C/G/T) in reference X (ends with $) the following steps need to be taken:
 
 1- Calculate BWT string for reference string X
@@ -73,8 +73,16 @@ D(0)=0 and D(1)=D(2)=1.We can then avoid descending into the ‘G’ and
 ![Figure 1](https://i.imgur.com/wVpLecs.png)
 
 
-## BWA-SW
- 
+## BWA-SW ##
+
+BWA-SW builds FM-indices for both the reference and query sequence. It
+implicitly represents the reference sequence in a prefix trie and represents
+the query sequence in a prefix directed acyclic word graph (prefix DAWG;
+Blumer et al., 1985), which is transformed from the prefix trie of the query
+sequence (Section 2.3). A dynamic programming can be applied between
+the trie and the DAWG, by traversing the reference prefix trie and the
+query DAWG, respectively. This dynamic programming would find all local
+matches if no heuristics were applied, but would be no faster than BWTSW.
 ---
 # Script Submission #
 
