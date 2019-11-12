@@ -72,7 +72,15 @@ You should select one research papers out of the list below to implement in your
 - [BWA and BWA-SW][bwa]
 - [FastTree and Pindel][fastpin]
 
-Your project grade will be the 40% of your final grade. You are expected to submit your project by week 8.
+Your project grade will be the 40% of your final grade. You are expected to submit your project by January 17.
+
+### Project submission
+
+You are required to submit your scripts to the shared __[Dropbox folder](https://www.dropbox.com/request/lN9nsHxnbUisEs6m5vsP)__ of this course. Your submission must include:
+
+0. **Your name and student number**
+1. __Sufficient__ documentation on how to run the script 
+2. Written comments that are __detailed__ enough to understand your scripts
 
 ### Exam
 Exam grades will make up the 60% of your final grade.
