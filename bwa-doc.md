@@ -46,7 +46,7 @@ To find inexact matches of string W (ends with A/C/G/T) in reference X (ends wit
 
 4- Calculate array O'(.,.) from B'
 
-You can then calculate inexact matches of string W with referece X with no more than z differences (missmatches or gaps) by Following [Algorithm 1].
+You can then calculate inexact matches of string W with referece X with no more than z differences (missmatches or gaps) by Following below algorithm.
 
 ![Algorithm 1](https://i.imgur.com/tbqGFMo.png) 
  
@@ -59,15 +59,15 @@ W[0,i]. The better the D is estimated, the smaller the search space and the
 more efficient the algorithm is.Anaive bound is achieved by setting D(i)=0 for all i, but the resulting algorithm is clearly exponential in the number of
 differences and would be less efficient.
 
-The CalculateD procedure in [Algorithm 1] gives a better, though not optimal,
+The CalculateD procedure in the algorithm gives a better, though not optimal,
 bound. It use the BWT of the reverse (not complemented)
 reference sequence to test if a substring of W is also a substring of X.
 
 To understand the role of D, look at example of searching
-for W =LOL in X=GOOGOL$ [Figure 1]. If you set D(i)=0 for all i and
-disallow gaps (removing the two star lines in the [Algorithm 1]), the call graph
+for W =LOL in X=GOOGOL$ figure below. If you set D(i)=0 for all i and
+disallow gaps (removing the two star lines in the algorithm), the call graph
 of InexRecur, which is a tree, effectively mimics the search route shown
-as the dashed line in [Figure 1]. However, with CalculateD, you know that
+as the dashed line in the figure. However, with CalculateD, you know that
 D(0)=0 and D(1)=D(2)=1.We can then avoid descending into the ‘G’ and
 ‘O’ subtrees in the prefix trie to get a much smaller search space.
 
@@ -100,6 +100,7 @@ substrings of X, falling in a sequence where each is a prefix of the next as is
 discussed in the previous paragraph. Figure below gives an example.
 
 ![Figure 2](https://i.imgur.com/lYbygA5.png)
+
 *(A) Prefix trie. Symbol ‘∧’ marks the start of a string. The two numbers in a node gives the
 SA interval of the node. (B) Prefix DAWG constructed by collapsing nodes
 with the identical SA interval. For example, in the prefix trie, three nodes
