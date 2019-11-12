@@ -108,7 +108,7 @@ respectively. In the prefix DAWG, the [4,4] node thus has parents [1,2] and
 [1,1]. Node [4,4] represents three strings ‘OG’, ‘OGO’ and ‘OGOL’ with the
 first two strings being the prefix of ‘OGOL’.*
 
-It construct a prefix DAWG G(W) for the query sequence W and a prefix
+For aligning prefix trie against prefix DAWG construct a prefix DAWG G(W) for the query sequence W and a prefix
 trie T (X) for the reference X. The dynamic programming for calculating the
 best score between W and X is as follows. Let Guv=Iuv=Duv=0 when u is
 the root of G(W) and v the root of T (X). At a node u in G(W), for each of
