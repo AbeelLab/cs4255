@@ -1,7 +1,7 @@
 # CS4255: Algorithms for sequence-based bioinformatics (2019/20 Q2) #
 
 
-The first lecture will take place on November 12. In the first lecture we will go over some logistics, including project planning and assignment, and setting the exam appointment. Attendance during the first lecture is highly recommended.
+The first lecture will take place on November 12. In the first lecture we will go over some logistics, including project planning and assignment, and setting the exam appointment. Attendance during the first lecture (and all others) is highly recommended.
 
 ## Announcements
 **The exercise session scheduled for November 11 will not take place.**
@@ -83,7 +83,7 @@ You are required to submit your scripts to the shared __[Dropbox folder](https:/
 2. Written comments that are __detailed__ enough to understand your scripts
 
 ### Exam
-Exam grades will make up the 60% of your final grade.
+Exam grade will make up the 60% of your final grade.
 
 
 
