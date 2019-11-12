@@ -115,12 +115,12 @@ where v' is the parent of v in T (X), function S(u'
 between the symbol on the edge (u'
 ,u) and the one on (v'
 ,v), and q and r
-are gap open and gap extension penalties, respectively. Guv, Iuv and Duv are
+are gap open and gap extension penalties, respectively. $G_uv$, Iuv and Duv are
 calculated with:
 
 ![DynamicProgramming12](https://i.imgur.com/RaKkwfw.png)
 
-where pre(u) is the set of parent nodes of u. Guv equals the best score between
+where pre(u) is the set of parent nodes of u. $G_uv$ equals the best score between
 the (possibly multiple) substrings represented by u and the (one) substring
 represented by v. We say a node v matches u if Guv>0.
 The dynamic programming is performed by traversing both G(W) and
