@@ -31,6 +31,7 @@ __Output:__ Alignment of the long reads and the reference.
 
 # Some useful notes  #
 ## BWA ##
+
 To find inexact matches of string W (ends with A/C/G/T) in reference X (ends with $) the following steps need to be taken:
 
 1- Calculate BWT string for reference string X
@@ -83,6 +84,63 @@ sequence (Section 2.3). A dynamic programming can be applied between
 the trie and the DAWG, by traversing the reference prefix trie and the
 query DAWG, respectively. This dynamic programming would find all local
 matches if no heuristics were applied, but would be no faster than BWTSW.
+
+The prefix trie of string X is a tree with each edge labeled with a symbol
+such that the concatenation of symbols on the path from a leaf to the root
+gives a unique prefix of X. The concatenation of edge symbols from a node
+to the root is always a substring of X, called the string represented by the
+node. The SA interval of a node is defined as the SA interval of the string
+represented by the node. Different nodes may have an identical interval, but
+recalling the definition of SA interval, we know that the strings represented
+by these nodes must be the prefixes of the same string and have different
+lengths.
+The prefix DAWG, of X is transformed from the prefix trie by collapsing
+nodes having an identical interval. Thus in the prefix DAWG, nodes and SA
+intervals have an one-to-one relationship, and a node may represent multiple
+substrings of X, falling in a sequence where each is a prefix of the next as is
+discussed in the previous paragraph. Figure below gives an example.
+
+[Figure 2](https://i.imgur.com/lYbygA5.png)
+
+We construct a prefix DAWG G(W) for the query sequence W and a prefix
+trie T (X) for the reference X. The dynamic programming for calculating the
+best score between W and X is as follows. Let Guv=Iuv=Duv=0 when u is
+the root of G(W) and v the root of T (X). At a node u in G(W), for each of
+its parent node u', calculate
+
+[DynamicProgramming1](https://i.imgur.com/Z4jFUVb.png)
+
+where v' is the parent of v in T (X), function S(u'
+,u;v'
+,v) gives the score
+between the symbol on the edge (u'
+,u) and the one on (v'
+,v), and q and r
+are gap open and gap extension penalties, respectively. Guv, Iuv and Duv are
+calculated with:
+
+[DynamicProgramming12](https://i.imgur.com/RaKkwfw.png)
+
+where pre(u) is the set of parent nodes of u. Guv equals the best score between
+the (possibly multiple) substrings represented by u and the (one) substring
+represented by v. We say a node v matches u if Guv>0.
+The dynamic programming is performed by traversing both G(W) and
+T (X) in the reverse post-order (i.e. all parent nodes are visited before
+children) in a nested way. Noting that once u does not match v, u does not
+match any nodes descending from v, we only need to visit the nodes close
+to the root of T (X) without traversing the entire trie, which greatly reduces
+the number of iterations in comparison to the standard Smith–Waterman
+algorithm that always goes through the entire reference sequence.
+
+BWT-SW deploys a similar strategy in performing the dynamic
+programming between a sequence and a prefix trie to find seed matches
+followed by Smith–Waterman extension. The main difference from our
+algorithm is that BWT-SW initiates the Smith–Waterman alignment once
+the score is high enough, regardless of the SA interval size. Sometimes a
+repetitive sequence may match to thousands of places in the human genome
+and extending partial matches each time may be slow.
+
+
 ---
 # Script Submission #
 
