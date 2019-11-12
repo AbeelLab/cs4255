@@ -31,15 +31,21 @@ __Output:__ Alignment of the long reads and the reference.
 
 # Some useful notes  #
 ## BWA
-For implementing BWA aligner following steps need to be taken
+To find inexact matches of string W (ends with A/C/G/T) in reference X (ends with $) the following steps need to be taken:
+
 1- Calculate BWT string for reference string X
+
 *Note: You can use the BWT implementation for excercise 33*
+
 2- Calculate array C(.) and O(.,.) from B
-*Note:*
+
+*Note: C(a) is the number of symbols in X[0, n-2] that are lexicographically smaller than a and O(a,i) is the number of occurance of a in B[0,i]*
+
 3- Calculate BWT string B' for the reverse reference
+
 4- Calculate array O'(.,.) from B'
 
-You can then calculate inexact matches of string W with the referece X with no more than z differences (missmatches or gaps) by Following this algorithm.
+You can then calculate inexact matches of string W with referece X with no more than z differences (missmatches or gaps) by Following this algorithm.
 
 ![Algorithm](https://i.imgur.com/Z3S3cms.png) 
 
