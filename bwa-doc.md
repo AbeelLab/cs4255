@@ -1,4 +1,5 @@
 ## CS4255 2019 Project Instructions for BWA and BWA-SW ##
+- [Heng Li, Richard Durbin, Fast and accurate short read alignment with Burrows–Wheeler transform, Bioinformatics, 25 (14), 2009, pp. 1754–1760][bwa-paper]
 
 # Problem statement #
 BWA and BWA-SW are tools for aligning short (less than 100 bp) and long (less than 1 Mbp) reads to a large reference. 
@@ -144,12 +145,11 @@ algorithm that always goes through the entire reference sequence.
 ---
 # Script Submission #
 
-You are required to submit your scripts to the shared __[Dropbox folder]()__ of this course. Your submission must include:
+You are required to submit your scripts to the shared __[Dropbox folder](https://www.dropbox.com/request/lN9nsHxnbUisEs6m5vsP)__ of this course. Your submission must include:
 
 1. __Sufficient__ documentation on how to run the script 
 2. Written comments that are __detailed__ enough to understand your scripts
 
-
+[bwa-paper]: https://doi.org/10.1093/bioinformatics/btp324
 
 <center> <b> GOOD LUCK!! </b> </center>
-

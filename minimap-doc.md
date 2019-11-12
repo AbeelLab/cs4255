@@ -1,5 +1,7 @@
 ## CS4255 2019 Project Instructions for Minimap and Miniasm ##
 
+- [Heng Li, Minimap and miniasm: fast mapping and de novo assembly for noisy long sequences, Bioinformatics, 32 (14), 2016, pp. 2103–2110][mini-paper]
+
 # Problem statement #
 
 You are given long read sequences of _E. coli_ in FASTQ format as well as short reads; in this project you are asked to implement an assembly pipeline comprising as described below.
@@ -106,7 +108,7 @@ Intuitively, a unitig is a maximal path on which adjacent vertices can be _unamb
 _HINT: If you choose to take the second route, you have to **modify your first function** to generate a **PAF file** as output because the miniasm tool only accepts PAF as input for assembly. See [author's webpage for more details on PAF](https://lh3.github.io/minimap2/minimap2.html#10)_
  
 
-
+[mini-paper]: https://doi.org/10.1093/bioinformatics/btw152
 
 
 <center> <b> GOOD LUCK!! </b> </center>

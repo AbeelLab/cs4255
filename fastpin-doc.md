@@ -1,4 +1,7 @@
 ## CS4255 2019 Project Instructions for FastTree and Pindel ##
+- [Morgan N. Price, et al., FastTree: Computing Large Minimum Evolution Trees with Profiles instead of a Distance Matrix, Molecular Biology and Evolution, 26(7), 2009, pp. 1641–1650][fast-paper]
+- [Kai Ye, et al., Pindel: a pattern growth approach to detect break points of large deletions and medium sized insertions from paired-end short reads, Bioinformatics, 25(21), 2009, pp. 2865–2871][pin-paper]
+
 
 # Problem statement #
 
@@ -136,4 +139,4 @@ The procedure is very similar to that used for deletions. The only difference is
 
 [fast-paper]: https://doi.org/10.1093/molbev/msp077
 [fast-web]: http://microbesonline.org/fasttree/
-
+[pin-paper]: https://doi.org/10.1093/bioinformatics/btp394
