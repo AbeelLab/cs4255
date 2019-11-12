@@ -106,13 +106,7 @@ Intuitively, a unitig is a maximal path on which adjacent vertices can be _unamb
 
 _HINT: If you choose to take the second route, you have to **modify your first function** to generate a **PAF file** as output because the miniasm tool only accepts PAF as input for assembly. See [author's webpage for more details on PAF](https://lh3.github.io/minimap2/minimap2.html#10)_
  
- ---
-# Script Submission #
 
-You are required to submit your scripts to the shared __[Dropbox folder]()__ of this course. Your submission must include:
-
-1. __Sufficient__ documentation on how to run the script 
-2. Written comments that are __detailed__ enough to understand your scripts
 
 
 
