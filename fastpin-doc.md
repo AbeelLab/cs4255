@@ -7,8 +7,9 @@
 
 
 ### Script ###
+You will be given 2 input files: an alignment file on which you will use your FastTree implementation to generate a phylogenetic tree, and a collection of paired-end reads mapped to a reference genome, and from these mappings you are asked to find the locations of breakpoints using your Pindel code.
 
-__Input:__  Paired-end reads mapped to a reference genome<br/>
+__Inputs:__ A multiple sequence alignment file for FastTree and a file containing paired-end reads mapped to a reference genome for Pindel<br/>
 __Output:__ A phylogenetic tree in [Newick format](http://en.wikipedia.org/wiki/Newick_format) and the coordinates of breakpoints, including the number of reads that support each breakpoint.
 
 ---
