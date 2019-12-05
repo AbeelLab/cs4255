@@ -11,8 +11,10 @@ You will be given 2 input files: an alignment file on which you will use your Fa
 
 __Inputs:__ 
 1. A multiple sequence alignment file for FastTree
-2. [Sam file](https://github.com/AbeelLab/cs4255/blob/master/pindel-aln.sam) containing paired-end reads mapped to a reference genome for Pindel<br/>
-__Output:__ A phylogenetic tree in [Newick format](http://en.wikipedia.org/wiki/Newick_format) and the coordinates of breakpoints, including the number of reads that support each breakpoint.
+2. [Sam file](https://github.com/AbeelLab/cs4255/blob/master/pindel-mapped.sam) containing paired-end reads mapped to a reference genome for Pindel <br/>
+You can find the sequence files for the paired reads [`pindel_reads1.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1.fq) and [`pindel-reads2.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads2.fq), and the reference genome [`pindel-ref.fasta`](https://github.com/AbeelLab/cs4255/blob/master/pindel-ref.fasta). <br/>
+ 
+ __Output:__ A phylogenetic tree in [Newick format](http://en.wikipedia.org/wiki/Newick_format) and the coordinates of breakpoints, including the number of reads that support each breakpoint.
 
 ---
 
