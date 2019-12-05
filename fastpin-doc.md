@@ -7,10 +7,10 @@
 
 
 ### Script ###
-You will be given 2 input files: an alignment file on which you will use your FastTree implementation to generate a phylogenetic tree, and a collection of paired-end reads mapped to a reference genome, and from these mappings you are asked to find the locations of breakpoints using your Pindel code.
+You will be given 2 input files: an alignment file of 24 bacterial strains on which you will use your FastTree implementation to generate a phylogenetic tree, and a collection of paired-end reads mapped to a reference genome, and from these mappings you are asked to find the locations of breakpoints using your Pindel code.
 
 __Inputs:__ 
-1. A multiple sequence alignment file for FastTree
+1. A [muliple sequence alignment file](https://github.com/AbeelLab/cs4255/blob/master/fasttree-input.fasta) for FastTree
 2. [Sam file](https://github.com/AbeelLab/cs4255/blob/master/pindel-mapped.sam) containing paired-end reads mapped to a reference genome for Pindel <br/>
 You can find the sequence files for the paired reads [`pindel_reads1.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1.fq) and [`pindel-reads2.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads2.fq), and the reference genome [`pindel-ref.fasta`](https://github.com/AbeelLab/cs4255/blob/master/pindel-ref.fasta). <br/>
  
