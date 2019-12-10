@@ -143,14 +143,6 @@ algorithm that always goes through the entire reference sequence.
 
 
 
----
-# Script Submission #
-
-You are required to submit your scripts to the shared __[Dropbox folder]()__ of this course. Your submission must include:
-
-1. __Sufficient__ documentation on how to run the script 
-2. Written comments that are __detailed__ enough to understand your scripts
-
 
 
 <center> <b> GOOD LUCK!! </b> </center>
