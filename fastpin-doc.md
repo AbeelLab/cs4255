@@ -22,16 +22,12 @@ You can find the sequence files for the paired reads [`pindel_reads1.fq`](https:
 
 ## Test data ##
 #### 1. FastTree ####
-You can find a small input to test your code [here (`fasttree-reallysmall.fasta`)](https://github.com/AbeelLab/cs4255/blob/master/fasttree-reallysmall.fasta), it contains 4 sequences aligned to each other:
+You can find a small [alignment input (`fasttree-reallysmall.aln`)](https://github.com/AbeelLab/cs4255/blob/master/fasttree-reallysmall.aln) to test your code, it contains the following [4 sequences (`fasttree-reallysmall.fasta`)](https://github.com/AbeelLab/cs4255/blob/master/fasttree-reallysmall.fasta), aligned to each other:
 ```
->ERR234681
-GGACAGACCGGACACGGGT
->ERR181778
-GGACAGGCCGGACGCGGGT
->SRR6896212
-ACNACGACTGACCATAAGG
->ERR2307717
-AGNACGACTGAACACGGGT
+ERR234681       GGACAGACCGGACACGGGT
+ERR2307717      AGNACGACTGAACACGGGT
+SRR6896212      ACNACGACTGACCATAAGG
+ERR181778       GGACAGG--GGACGCGGGT
 ``` 
 The correct output tree for these sequences is:
 ![test-tree](fasttree-reallysmall.png)
