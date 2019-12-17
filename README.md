@@ -5,6 +5,7 @@ The first lecture will take place on November 12. In the first lecture we will g
 
 ## Announcements
 **The exercise session scheduled for November 11 will not take place.**
+** The lecture of December 17 has been postponed **
 
 ## Location
 
@@ -30,11 +31,11 @@ Monday, 9 December 2019 8:45	 	|  Exercices. ch. 6
 Tuesday, 10 December 2019 13:45	 	|  Chapter 7
 Thursday, 12 December 2019 13:45	 	|  backup slot
 Monday, 16 December 2019 8:45	 	|  Exercices. ch. 7
-Tuesday, 17 December 2019 13:45	 	|  Chapter 9
+Tuesday, 17 December 2019 13:45	 	|  postponed
 Thursday, 19 December 2019 13:45	 	|  backup slot
 Monday, 6 January 2020 8:45	 	|  Exercices. ch. 9
-Tuesday, 7 January 2020 13:45	 	|  Chapter 10
-Thursday, 9 January 2020 13:45	 	|  backup slot
+Tuesday, 7 January 2020 13:45	 	|  Chapter 9
+Thursday, 9 January 2020 13:45	 	|  Chapter 10
 Monday, 13 January 2020 8:45	 	|  Exercices. ch. 10
 Tuesday, 14 January 2020 13:45	 	|  backup slot
 Thursday, 16 January 2020 13:45	 	|  backup slot
