@@ -17,6 +17,7 @@ You can find the sequence files for the paired reads [`pindel_reads1.fq`](https:
  __Output:__ A phylogenetic tree in [Newick format](http://en.wikipedia.org/wiki/Newick_format) and the coordinates of breakpoints, including the number of reads that support each breakpoint.
 
 You can check your Pindel results with [the correct `.vcf` file](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1.fq) and [`pindel-reads2.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-output.vcf) that describes all breakpoints in the reference genome.  
+
 ---
 
 # Testing your code #
