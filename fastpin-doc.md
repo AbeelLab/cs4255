@@ -10,11 +10,17 @@
 You will be given 2 input files: an alignment file of 24 bacterial strains on which you will use your FastTree implementation to generate a phylogenetic tree, and a collection of paired-end reads mapped to a reference genome, and from these mappings you are asked to find the locations of breakpoints using your Pindel code.
 
 __Inputs:__ 
-1. A [muliple sequence alignment file](https://github.com/AbeelLab/cs4255/blob/master/fasttree-input.fasta) for FastTree
+1. A [muliple sequence alignment file](https://github.com/AbeelLab/cs4255/blob/master/fasttree-input.aln) for FastTree
 2. [Sam file](https://github.com/AbeelLab/cs4255/blob/master/pindel-mapped.sam) containing paired-end reads mapped to a reference genome for Pindel <br/>
 You can find the sequence files for the paired reads [`pindel_reads1.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1.fq) and [`pindel-reads2.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads2.fq), and the reference genome [`pindel-ref.fasta`](https://github.com/AbeelLab/cs4255/blob/master/pindel-ref.fasta). The read length is 100 and the insertion size is 400. <br/>
  
  __Output:__ A phylogenetic tree in [Newick format](http://en.wikipedia.org/wiki/Newick_format) and the coordinates of breakpoints, including the number of reads that support each breakpoint.
+
+The correct output tree for FastTree is:
+
+![fasttree-output](fasttree-output.png)
+
+You can also find [the Newick file here](https://github.com/AbeelLab/cs4255/blob/master/fasttree-output.tree)
 
 You can check your Pindel results with [the correct `.vcf` file](https://github.com/AbeelLab/cs4255/blob/master/pindel-output.vcf) that describes all breakpoints in the reference genome.  
 
@@ -30,9 +36,12 @@ ERR234681 GGACAGACCGGACACGGGT
 ERR2307717  AGAACGACTGAACACGGGT
 SRR6896212  ACAACGACTGACCATAAGG
 ERR181778 GGACAGGGGACGCGGGT
-``` 
-The correct output tree for these sequences is:
-`(SRR6896212:0.41935,ERR2307717:0.00055,(ERR181778:0.49563,ERR234681:0.00055)0.863:0.33176);`
+```    
+
+The correct output tree for these sequences is:    
+
+`(SRR6896212:0.41935,ERR2307717:0.00055,(ERR181778:0.49563,ERR234681:0.00055)0.863:0.33176);`    
+
 ![test-tree](fasttree-reallysmall.png)
 
 #### 2. Pindel ####
