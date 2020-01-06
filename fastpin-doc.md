@@ -12,10 +12,11 @@ You will be given 2 input files: an alignment file of 24 bacterial strains on wh
 __Inputs:__ 
 1. A [muliple sequence alignment file](https://github.com/AbeelLab/cs4255/blob/master/fasttree-input.fasta) for FastTree
 2. [Sam file](https://github.com/AbeelLab/cs4255/blob/master/pindel-mapped.sam) containing paired-end reads mapped to a reference genome for Pindel <br/>
-You can find the sequence files for the paired reads [`pindel_reads1.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1.fq) and [`pindel-reads2.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads2.fq), and the reference genome [`pindel-ref.fasta`](https://github.com/AbeelLab/cs4255/blob/master/pindel-ref.fasta). <br/>
+You can find the sequence files for the paired reads [`pindel_reads1.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1.fq) and [`pindel-reads2.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads2.fq), and the reference genome [`pindel-ref.fasta`](https://github.com/AbeelLab/cs4255/blob/master/pindel-ref.fasta). The read length is 100 and the insertion size is 400. <br/>
  
  __Output:__ A phylogenetic tree in [Newick format](http://en.wikipedia.org/wiki/Newick_format) and the coordinates of breakpoints, including the number of reads that support each breakpoint.
 
+You can check your Pindel results with [the correct `.vcf` file](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1.fq) and [`pindel-reads2.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-output.vcf) that describes all breakpoints in the reference genome.  
 ---
 
 # Testing your code #
@@ -24,19 +25,19 @@ You can find the sequence files for the paired reads [`pindel_reads1.fq`](https:
 #### 1. FastTree ####
 You can find a small [alignment input (`fasttree-reallysmall.aln`)](https://github.com/AbeelLab/cs4255/blob/master/fasttree-reallysmall.aln) to test your code, it contains the following [4 sequences (`fasttree-reallysmall.fasta`)](https://github.com/AbeelLab/cs4255/blob/master/fasttree-reallysmall.fasta), aligned to each other:
 ```
-ERR234681       GGACAGACCGGACACGGGT
-ERR2307717      AGNACGACTGAACACGGGT
-SRR6896212      ACNACGACTGACCATAAGG
-ERR181778       GGACAGG--GGACGCGGGT
+ERR234681 GGACAGACCGGACACGGGT
+ERR2307717  AGAACGACTGAACACGGGT
+SRR6896212  ACAACGACTGACCATAAGG
+ERR181778 GGACAGGGGACGCGGGT
 ``` 
 The correct output tree for these sequences is:
+`(SRR6896212:0.41935,ERR2307717:0.00055,(ERR181778:0.49563,ERR234681:0.00055)0.863:0.33176);`
 ![test-tree](fasttree-reallysmall.png)
 
 #### 2. Pindel ####
-There is a small reference genome of length 1000bp [`pindel-ref_reallysmall.fasta`](https://github.com/AbeelLab/cs4255/blob/master/pindel-ref_reallysmall.fasta), and your are given 285 paired-end reads in [`pindel_reads1_reallysmall.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1_reallysmall.fq) and [`pindel-reads2_reallysmall.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads2_reallysmall.fq). You can also find the alignment file [here](https://github.com/AbeelLab/cs4255/blob/master/pindel-mapped_reallysmall.sam)
+There is a small reference genome of length 1000bp [`pindel-ref_reallysmall.fasta`](https://github.com/AbeelLab/cs4255/blob/master/pindel-ref_reallysmall.fasta), and your are given 285 paired-end reads in [`pindel_reads1_reallysmall.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads1_reallysmall.fq) and [`pindel-reads2_reallysmall.fq`](https://github.com/AbeelLab/cs4255/blob/master/pindel-reads2_reallysmall.fq). You can also find the alignment file [here](https://github.com/AbeelLab/cs4255/blob/master/pindel-mapped_reallysmall.sam). The insertion length of reads is 200.
 
 Reference sequence contains a deletion of length 100bp at position 150 (0-based index) and an insertion of 10bp at position 500 (0-based index).
-
 ---
 
 # Some useful notes  #
