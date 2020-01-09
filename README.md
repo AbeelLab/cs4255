@@ -40,6 +40,7 @@ Monday, 13 January 2020 8:45	 	|  Exercises. ch. 10
 Tuesday, 14 January 2020 13:45	 	|  backup slot
 Thursday, 16 January 2020 13:45	 	|  backup slot
 Friday, 17 January	 	|  **Project deadline**
+Tuesday, 28 January | **Exam** see BrightSpace for times
 
 ## Preparation
 ### Computer requirements
