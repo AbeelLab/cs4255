@@ -1,0 +1,16 @@
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+pindel-ref	61	.	G	GATAAACGCGTCGT	.	.	variant_type=INDEL
+pindel-ref	1592	.	T	TGAG	.	.	variant_type=INDEL
+pindel-ref	1669	.	AGA	A	.	.	variant_type=INDEL
+pindel-ref	2700	.	TTAACT	T	.	.	variant_type=INDEL
+pindel-ref	2729	.	ATCCCAATTTGTT	A	.	.	variant_type=INDEL
+pindel-ref	4110	.	A	ATCT	.	.	variant_type=INDEL
+pindel-ref	4243	.	C	CAT	.	.	variant_type=INDEL
+pindel-ref	5840	.	A	ACC	.	.	variant_type=INDEL
+pindel-ref	6881	.	AAT	A	.	.	variant_type=INDEL
+pindel-ref	7925	.	TATATTT	T	.	.	variant_type=INDEL
+pindel-ref	8423	.	ACACAGAGCG	A	.	.	variant_type=INDEL
+pindel-ref	8558	.	TC	T	.	.	variant_type=INDEL
+pindel-ref	9580	.	AATCCCATATC	A	.	.	variant_type=INDEL
+pindel-ref	9966	.	A	ACT	.	.	variant_type=INDEL
+pindel-ref	10247	.	CCTG	C	.	.	variant_type=INDEL
