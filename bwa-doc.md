@@ -29,6 +29,7 @@ __Output:__ Alignment of the long reads and the reference.
 # Testing your code #
 
 ## Test data ##
+You can use [reference](bwa-reference.fasta) as the reference for BWA and align [reads](bwa-reads.fasta) to it. 
 ---
 
 # Some useful notes  #
