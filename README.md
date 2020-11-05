@@ -1,3 +1,5 @@
+# <span style="color:red"> This is from last year. Please use the Microsoft Teams group to access the course schedule and materials. </span>
+
 # CS4255: Algorithms for sequence-based bioinformatics (2019/20 Q2) #
 
 
